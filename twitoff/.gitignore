@@ -1,0 +1,32 @@
+.env
+
+
+# git commit -a
+# git add .
+# git status
+# git commit -n 'comments from me'
+# git push origin master/main
+
+
+
+
+# inside twitoff
+# $ flask shell
+# 
+# >>> twitter_user = twitter.get_user(screen_name=user)
+# twitter_user.friends_count
+# twitter_user.followers
+# twitter_user.following
+# twitter_user.id
+# twitter_user.created_at
+# tweets = twitter_user.timeline(count=200, exclude_replies=True,
+# include_retweets=False, tweet_node='extended')
+
+# tweets[0].full_text
+
+# tweet1 = tweets[0]
+# tweet1.user.screen_name
+# tweet1.user.name
+
+
+
