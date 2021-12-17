@@ -1,5 +1,5 @@
 import requests
-print(request)                                  # in flask REPL (shell)
+                                                # in flask REPL (shell)
                                                 # import weather.api
                                                 # >>> <Response>
 # make get request to api, store response in 'response'
