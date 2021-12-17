@@ -1,4 +1,4 @@
-from app import create_app
+from inner.app3 import create_app
 
 # telling flask to use our create_app factory
 # now app will be named "APP"
