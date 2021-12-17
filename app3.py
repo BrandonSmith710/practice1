@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from models import Day, DB
-from api import make_query
+from .models import Day, DB
+from .api import make_query
 
 
 def create_app():
